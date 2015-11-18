@@ -196,6 +196,10 @@ a:visited {color:#556280;}
     background-color:#fff;
 }
 
+.pane-nmny-header.small .sitenamefull {
+	display:none;
+}
+
 .pane-nmny-header.small .pane-system-main-menu {
 	position:fixed;
 	width: 30%;
@@ -226,7 +230,7 @@ font-weight: 400;
 
 .pane-nmny-header.large .pane-page-slogan {
 	font-size:100%;
-	margin-top: 14vw;
+	margin-top: 17vw;
 
 }
 
