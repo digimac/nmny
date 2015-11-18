@@ -17,6 +17,18 @@
 	-moz-transition: all 0.4s;
 	-webkit-transition: all 0.4s; /* Safari and Chrome */
 	-o-transition: all 0.4s; /* Opera */
+}
+
+.sitenamefull {
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    width: 80vw;
+    margin: 0 10vw;
+    text-align: center;
+    position: fixed;
+    z-index: 11;
 }	
 
 .site-slogan {display:none;}
