@@ -1,0 +1,44 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+#page {
+			background-color: #708090;
+			font-family: Trebuchet MS, Helvetica, sans-serif;
+		}
+		
+		.region-branding {
+			background-color: #FFFFFF;
+			padding: 10px;
+		}
+
+		a:link {
+			color: black;
+		}
+		a:visited {
+			color: black;
+		}
+		a:hover.region-branding {
+			color: #3333CC;
+		}
+		a:active.region-branding {
+			color: #3333CC;
+		}
+		
+		h6.site-slogan {
+				color: #3333CC;
+			}
+			
+		.region-menu {
+				background-color: #5F9EA0;
+				padding: 10px; 
+				border: 1px solid black;
+			}
+			
+		.region-content {
+				background-color: #C2D6D6;
+			}
+				
+		.region-sidebar-first {
+						background-color: #C2D6D6;
+
+					}
+					

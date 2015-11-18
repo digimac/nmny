@@ -1,0 +1,318 @@
+/* new styling for snmny launch */
+
+#section-header {
+	position: fixed;
+    z-index: 10;
+    width: 100%;
+    margin: 11em auto;
+    padding: 1em 1em 0 1em;
+    text-align: center;
+	font-family: "source-sans-pro",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.sitename, .pane-system-main-menu {
+	transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	-webkit-transition: all 0.4s; /* Safari and Chrome */
+	-o-transition: all 0.4s; /* Opera */
+}	
+
+.site-slogan {display:none;}
+
+
+.navigation {
+	display:none;
+}
+
+.pane-system-main-menu ul li.leaf {
+	float:right;
+	list-style-image:none;
+	list-style-type:none;
+	float: right;
+    clear: right;
+}
+
+.pane-system-main-menu li a {
+
+}	
+
+a:link {color:#505050;}
+a:visited {color:#556280;}
+
+
+.nmny-f1 .views-field-title {
+	font-size:3.3vw;
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+}
+
+.view-id-feature .col-1 {
+	width:50%;
+}
+
+.view-id-feature .field-type-image img{
+	width:100%;
+	height:auto;
+}
+
+.views-field-title {
+	font-family: "source-sans-pro",sans-serif;
+	font-style: normal;
+	font-weight: 600;
+}
+
+.field-name-body {
+	font-family: "source-sans-pro",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0 0.6em;
+	font-size: 110%;
+}
+
+.field-name-field-primary-tag {
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:80%;
+    text-transform: uppercase;
+    padding: .2em .5em .5em 0;
+    letter-spacing: 0.15em;
+}		
+
+.nmny-l2 .views-field-title {
+	font-size: 2em;
+    line-height: 1.0em;
+    margin: .3em;
+}
+
+.nmny-a1 {
+	width: 60vw;
+    padding: 0em 10vw 3em 10vw;
+    margin:0 auto;
+    background: #ffffff;
+}
+
+.nmny-a1 .pane-content {
+	font-family: "kinesis-pro-3",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:150%;
+}
+
+/* styles for the bigger menu */
+.pane-nmny-header.large{
+	height: 9vw;
+}
+
+ .sitename {
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14vw;
+    width: 80vw;
+    margin: 0 10vw;
+    text-align: center;
+    position: fixed;
+    z-index: 11;
+}
+
+.pane-nmny-header.large .pane-system-main-menu {
+	position: fixed;
+    width: 29%;
+    z-index: 15;
+    font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 2em;
+    font-size: 100%;
+    line-height: 1.3em;
+    opacity: 0.5;
+}
+
+.col-first {
+	padding:1em;
+	vertical-align:top;
+}
+.col-last {
+	padding:1em;
+	vertical-align:top;
+}
+
+.pane-views-tag-browser-block {background: #505050;z-index: 12;display:block;}
+
+.nmny-tags {
+	width: 60vw;
+    margin: 0 20vw 0 20vw;
+    top: 10vw;
+
+    font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size:80%;
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.nmny-tags .views-row {float:left;width:10%;text-align:center;background-color: #505050;}
+
+.nmny-tags a:link {color:#ffffff;}
+
+
+/* styles for the smaller menu */
+.pane-nmny-header.small{ 
+	opacity:0.8;
+	z-index:15;
+	margin: 0px 0 0 0;
+    position: fixed;
+    top: 0;
+}
+
+.pane-nmny-header.small .sitename {
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8vw;
+    width: 100vw;
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    z-index: 11;
+    color:#e4e4e4;
+    background-color:#fff;
+}
+
+.pane-nmny-header.small .pane-system-main-menu {
+	position:fixed;
+	width: 30%;
+	z-index:15;
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: .3em;
+    font-size:80%;
+    line-height: 1.2em;
+}
+
+.nmny-name {
+	width:65%;
+	letter-spacing: .5vw;
+}
+
+.pane-page-slogan {
+	text-align:center;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	font-family: "kinesis-pro-3",sans-serif;
+font-style: normal;
+font-weight: 400;
+	z-index:15;
+}
+
+.pane-nmny-header.large .pane-page-slogan {
+	font-size:100%;
+	margin-top: 14vw;
+
+}
+
+.pane-nmny-header.small .pane-page-slogan {
+	font-size: 90%;
+    margin-top: 5vw;
+
+}
+
+.pane-nmny-header.large .nmny-senior {position: fixed;
+    color: red;
+    z-index: 12;
+    padding: .2em;
+    border-radius: 3px;
+	}
+.pane-nmny-header.small .nmny-senior {display:none;}
+
+.pane-nmny-header.large .nmny-tag {display:none;}
+.pane-nmny-header.small .nmny-tag {color: #000;
+    position: fixed;
+    margin-top: 0.65em;
+    font-size: 157%;}
+
+.nmny-tag {
+	font-family: "fatfrank",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+	font-size:200%;
+	text-align:center;
+	z-index:12;
+	width:100%;
+}
+
+.nmny-senior {
+	margin: 0.25em auto 0 ;
+	font-family: "industry-inc-in-n-out",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size:200%;
+	text-align:center;
+	z-index:12;
+	width:100%;
+}
+
+h2 .node-title {
+	text-decoration:none;
+}
+
+.node-links {display:none;}
+
+a:-webkit-any-link {text-decoration: none;}
+a:link {text-decoration: none;}
+
+.nmny-f1 {
+	margin:6em 15vw 3em;
+	background:transparent;
+	width:70vw;
+}
+
+.nmny-f1 img {width:100%;height:auto;}
+
+.nmny-l2 {
+	width:90%;
+	margin:0 auto;
+	background:#f6f6f6;
+}
+
+@media all and (max-width:40em) {
+
+.pane-nmny-header.large .pane-system-main-menu {margin-top:0em;}
+
+.nmny-senior {    
+	font-size: 130%;
+    top: -0.2em;}
+
+.nmny-l2 .col-1{float:left;width:auto;}
+.nmny-l2 .col-2{float:left;width:auto;}
+.nmny-f1 {
+	margin:6em auto 3em;
+	background:#f8f1e8;
+	width:95%;
+	height:auto;
+}
+
+.nmny-l2 {
+	width:95%;
+	margin:0 auto;
+	background:#f6f6f6;
+}
+
+#section-header {position:fixed;z-index:10;width:100%;margin: 1em 8%;}
+
+.nmny-l2 .views-field-title {
+	    font-size: 1.4em;
+    line-height: 1em;
+}
+
+.nmny-tags {display:none;}
+
+
+}
